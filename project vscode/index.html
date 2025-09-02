@@ -8,16 +8,16 @@
     </head>
     <body>
         <header>
-            <h1>Quiz interativo para programadores</h1>
-            <p>Teste seus conhecimentos sobre programação e veja qual a sua pontuação</p></0>
+            <h1 style="font-size: 70px;">Quiz interativo para programadores</h1>
+            <p style="font-size: 20px;">Teste seus conhecimentos sobre programação e veja qual a sua pontuação</p>
         </header>
         <main>
             <!--Introdução-->
             <section>
-                <h2>Sobre esse quiz</h2>
-                <p><strong>Esse quiz</strong> foi desenvolvido para ajudar programadores a testarem seus conhecimentos em diversas áreas da programação, desde lógica de programação até <em>linguagens específicas</em>.</p>
-                <p>Ele é composto por uma série de perguntas de múltipla escolha, e cada resposta correta vale um ponto. No final do quiz, você verá sua pontuação total e poderá comparar com outros participantes.</p>
-                <p>Você encontrará como <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, que são comumente usados em questões relacionadas ao desenvolvimento web</p>   
+                <h2 style="font-size: 40px;">Sobre este quiz</h2>
+                <p style="font-size: 20px;"><strong>Esse quiz</strong> foi desenvolvido para ajudar programadores a testarem seus conhecimentos em diversas áreas da programação, desde lógica de programação até <em>linguagens específicas</em>.</p>
+                <p style="font-size: 20px;">Ele é composto por uma série de perguntas de múltipla escolha, e cada resposta correta vale um ponto. No final do quiz, você verá sua pontuação total e poderá comparar com outros participantes.</p>
+                <p style="font-size: 20px;">Você encontrará como <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, que são comumente usados em questões relacionadas ao desenvolvimento web</p>   
             </section>
             <!--Pergunta 1: múltipla escolha-->
             <section> 
@@ -42,15 +42,15 @@
                 <h2>Pergunta 2: Na URL https://www.google.com o trecho "google.com" é o ____</h2>
                 <form>
                     <input type="text" id="p2" name="pergunta2"
-                    placeholder="Digite sua resposta aqui">
+                    placeholder="Digite sua resposta...">
                 </form>
             </section>
             <!--Pergunta 3: senha-->
             <section>
-                <h2>Pergunta 3: Escreva um exeplo de senha forte</h2>
+                <h2>Pergunta 3: Escreva um exemplo de senha forte</h2>
                 <form>
                     <input type="password" id="p3"
-                    name="pergunta3" placeholder="Digite uma senha forte">
+                    name="pergunta3" placeholder="Digite uma senha forte...">
                 </form>
             </section>
             <!--Pergunta 4: múltipla escolha-->
@@ -100,9 +100,9 @@
             <section>
                 <h2>Pergunta 8: Qual linguagem de programação é representada pelo logotipo abaixo?</h2>
                 <figure>
-                <img src="javaa.png" alt="Logotipo de uma linguagem de programação"><br>
+                <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Logotipo de uma linguagem de programação"><br><br>
                 <figcaption>Figura 1: Logotipo de uma linguagem de programação</figcaption>
-                <figure>
+                </figure>
                 <input type="text" id="p8" name="pergunta8"
                 placeholder="Digite sua resposta aqui">
             </section>
@@ -175,9 +175,10 @@
                 </form>
             </section>
         </main>
-        <footer>
-            <p>&copy Quiz de programadores. Todos os direitos reservados</p>
-            <p>Para conhecer outros quizzes <a href="https://google.com" target="_blank">clique aqui</a></p>
+        <footer> 
+            <!-- "class" sobrepõe tudo pois é um seletor de classe e não um seletor de elemento -->
+            <p class="paragrafo-footer">&copy Quiz de programadores. Todos os direitos reservados</p>
+            <p class="paragrafo-footer">Para conhecer outros quizzes <a href="https://google.com" target="_blank">clique aqui</a></p>
         </footer>
     </body>
 </html>

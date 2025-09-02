@@ -1,15 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    background: linear-gradient(to bottom, rgb(79, 6, 112), #ffffff);
+    color: #546604;
+    font-family: "Cabin Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f0f4;
+    font-weight: 400;
 }
+
 h1 {
-    color: #ffffff;
+    color: #546604;
 }
+
 h2 {
-    color: #000000;
+    color: #331f19;
+    font-size: 2rem;
 }
 
 p{
-    color: rgb(255, 255, 255);
+    color: #546604;
+}
+
+header {
+    padding: 2rem;
+    text-align: center;
+    background-color: #2c1705;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 2rem;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    accent-color: #546604;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #ccd595;
+    outline: none;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: #546604;
+}
+
+select {
+    cursor: pointer;
+    background-color: #ccd595;
+    color: #331f19;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+img {
+    width: 15rem;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #ccd595;
+    color: #331f19;
+    padding: 0.5rem;
+}
+
+td {
+    color: #331f19;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+tfoot td {
+    background-color: #331f19;
+    color: #f4f0f4;
+}
+
+details {
+    background-color: #ccd595;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+summary {
+    color: #331f19;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 1.5rem;
+}
+
+ol li {
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: 2px solid #ccd595;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color: #331f19;
+    padding: 0 0.5rem;
+}
+
+textarea {
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #ccd595; 
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ccd595;
+    border: none;
+    padding: 0.8rem;
+    color: #331f19;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #331f19;
+}
+
+.paragrafo-footer {
+    color: #f4f0f4;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ccd595;
 }
